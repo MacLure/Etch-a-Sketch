@@ -1,0 +1,65 @@
+body {
+    background: #AAA;
+    margin: 0;
+
+}
+p {
+    font-size: 12px;
+    font-family: arial;
+    color: #555555;
+    vertical-align: middle;}
+
+.controls {
+    margin: 100px auto 00px;
+    width: 400px;
+    
+}
+
+#sizeInpiut {
+    margin: 0;
+    padding: 15px;
+    border: 0;
+    height: 25px;
+    width: 40px;
+    font-size: 20px;
+    outline: none;
+    vertical-align: middle;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#resetButton{
+    margin: 0;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: none;
+    vertical-align: middle;
+    float: right;
+    color: #555555;
+    box-shadow: 5px 5px 10px grey;
+	border-radius:100px;
+}
+
+#grid {
+    margin: 30px auto;
+    background: white;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #888;
+    display: grid;
+    grid-template-columns: repeat (16, 1fr);
+    grid-template-rows: repeat (16, 1fr);
+    box-shadow: 20px 20px 50px grey;
+}
+
+.pixel {
+    float: left;
+    background: black;
+    opacity: 0.0;
+}
+
+.coloredPixel{
+    background: black;
+    opacity: 0.1;
+}
